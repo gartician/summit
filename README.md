@@ -72,7 +72,7 @@ Summit is meant to be an ultrafast and light adaptation to the original GoPeaks 
 
 ![memory-requirements](doc/max-uss.png)
 
-Max USS tracks the maximal memory used in a process. This metric is commonly employed in HPCs to kill any process that takes up much RAM. While CUT&Tag data commonly use 3-8 million paired-end reads (<200MB), GoPeaks requires a prohibitively high amount of memory (20-30GBs) to process the data. By comparison, Summit typically uses less than 2GB of memory with very little deviation between runs (individual points). This makes Summit between 90-95% more efficient than GoPeaks! 
+Max USS tracks the maximal memory used in a process. This metric is commonly employed in HPCs to kill any process that takes up much RAM. While CUT&Tag data frequently use 3-8 million paired-end reads (<200MB), GoPeaks requires a prohibitively high amount of memory (20-30GBs) to process the data. By comparison, Summit typically uses less than 2GB of memory with very little deviation between runs (individual points). This makes Summit between 90-95% more efficient than GoPeaks! 
 
 ## Faster Run Times
 
