@@ -46,7 +46,7 @@ the parameters of GoPeaks to analyze their data.
     params.add_argument("-w", "--minwidth", help = "Remove peaks less than <mindwidth> base pairs wide. Default: 150", type = int, default = 150)
     params.add_argument("-t", "--step", help = "Bin size for genome bins. Default: 100", type = int, default = 100)
     params.add_argument("-l", "--slide", help = "Slide size for genome bins. Default: 50", type = int, default = 50)
-    params.add_argument("-p", "--pval", help = "Filter away bins above <pval> significance level. Default: 0.05", type = int, default = 0.05)
+    params.add_argument("-p", "--pval", help = "Filter away bins above <pval> significance level. Default: 0.05", type = float, default = 0.05)
     params.add_argument("-s", "--chromsize", help = "Tab-delimited file containing chromosome name and sizes.", type = str)
 
     # optional program parameters
